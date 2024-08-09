@@ -7,7 +7,7 @@ metadata:
 spec:
   selector:
     app: k8s-web-to-nginx
-  type: LoadBalancer
+  type: NodePort
   ports:
   - name: k8s-web-to-nginx
     protocol: TCP
